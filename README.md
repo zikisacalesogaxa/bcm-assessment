@@ -22,7 +22,8 @@ var coinDenominations = [1,5,10,25]; // coin denominations – US Dollar
 var machine = new VendingMachine(coinDenominations);
 var purchaseAmount = 1.35; // amount the item cost
 var tenderAmount = 2.00; // amount the user input for the purchase
-var change = machine.CalculateChange(purchaseAmount, tenderAmount); // expect 65 cents // The expected result would be an array that looks like
+var change = machine.CalculateChange(purchaseAmount, tenderAmount); // expect 65 cents
+// The expected result would be an array that looks like
 // change[0] = 25
 // change[1] = 25
 // change[2] = 10
